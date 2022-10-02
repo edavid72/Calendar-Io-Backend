@@ -9,3 +9,7 @@ body {
   align-items: center;
   width: 100%;
 }
+
+h1 {
+  font-size: 4rem;
+}
