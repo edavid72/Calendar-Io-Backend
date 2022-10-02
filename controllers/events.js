@@ -97,7 +97,7 @@ export const deleteEvent = async (req, res = response) => {
     if (event.user.toString() !== uid) {
       return res.status(401).json({
         ok: false,
-        mag: 'You do not have authentication privileges to be able to delete this event.',
+        msg: 'You do not have authentication privileges to be able to delete this event.',
       });
     }
 
