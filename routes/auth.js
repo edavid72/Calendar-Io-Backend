@@ -31,7 +31,7 @@ authRouter.post(
     check(
       'password',
       'The password must contain at least 6 characters'
-    ).isLength({ min: 6 }),
+    ).isLength({ min: 2 }),
     fieldValidator,
   ],
   loginUser
