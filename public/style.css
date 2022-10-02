@@ -1,4 +1,11 @@
 html,
 body {
-    background-color: aquamarine;
+  background-color: #edd2d9;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
